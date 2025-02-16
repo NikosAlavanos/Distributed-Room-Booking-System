@@ -1,40 +1,55 @@
-Distributed Room Rental Platform
+Distributed Room Rental Platform – Version 1.0
+Overview
 
-Welcome to the Distributed Room Rental Platform—an end-to-end solution designed to manage and scale room rental operations seamlessly. This project leverages distributed computing with a Java-based backend and an Android client, making it ideal for real-world property management and rental applications.
-Project Highlights
-
-Distributed Architecture:
-        Master Node: A robust, multi-threaded TCP server implemented in Java that handles client connections and distributes tasks.
-        Worker Nodes: Dynamically allocated nodes store room data in memory using a hash-based distribution strategy, ensuring efficient load balancing.
-        MapReduce-Inspired Processing: Simplifies filtering and processing room data to quickly deliver search results.
-
-Modern Android Client:
-        User-friendly interface for searching, booking, and reviewing room rentals.
-        Asynchronous TCP communication for a responsive experience, even under heavy load.
-
-Scalable and Fault-Tolerant:
-        Supports concurrent multi-user operations.
-        Optional active replication for high availability, ensuring data resilience in case of node failures.
-
+Distributed Room Rental Platform is a cutting-edge solution for managing room rentals in a distributed environment. Built in Java for the backend and paired with an Android client, this project leverages multi-threading, TCP socket communication, and in-memory data storage to deliver a responsive and scalable system. Designed with modern architectural principles in mind, it offers a robust platform for both property managers and renters.
 Key Features
 
-Room Management:
-        Add new room listings using JSON descriptions.
-        Schedule available dates for rentals.
-        Include key details such as room name, capacity, location, price, and ratings.
-        Note: This version currently does not support adding images.
+• Distributed Architecture:
 
-Reservation System:
-        Renters can filter available rooms by area, dates, occupancy, price, and star rating.
-        Real-time booking with synchronized access to prevent double bookings.
-        Detailed reservation reports available for property managers.
+    Implements a custom Master-Worker model.
+    A multi-threaded Master node handles client connections and distributes tasks to dynamically allocated Worker nodes using a hash-based strategy.
 
-Efficient Data Processing:
-        Leverages Java threading and low-level TCP socket programming for performance.
-        Utilizes a simplified MapReduce model to efficiently filter and manage data.
+• Room Management:
 
-Getting Started
-Prerequisites
+    Add and manage room listings via a console application using JSON descriptions.
+    (Note: This version does not support image uploads.)
 
-Java 8 or Higher: Ensure you have the JDK installed.
-Android Studio: Required for building and testing the Android client.
+• Reservation System:
+
+    Renters can filter available rooms by area, date, capacity, price, and rating.
+    Ensures real-time booking while preventing double reservations with synchronized access.
+
+• Scalable & Fault-Tolerant:
+
+    Supports concurrent multi-user operations.
+    Optional active replication ensures data resilience in case of node failures.
+
+• Modern Android Client:
+
+    Provides an intuitive interface for searching, booking, and reviewing room rentals.
+    Uses asynchronous TCP communication for a smooth user experience.
+
+How to Use
+
+    Backend Setup:
+        Configure the number of Worker nodes via command line arguments or the provided configuration file.
+        Run the Master node to start handling TCP connections and distribute room data.
+
+    Room Listing Management:
+        Use the console application to add room listings via JSON.
+        Schedule available dates and manage reservations seamlessly through the backend.
+
+    Android Client:
+        Open the "android-client" project in Android Studio.
+        Update the Master server IP and port settings as needed.
+        Build and run the app to explore available rooms and make reservations in real-time.
+
+Technologies Used
+
+• Java – Core language for backend development. • TCP Socket Programming – Enables multi-threaded server-client communication. • Android – Platform for building the client application. • JSON Serialization – Manages room data and state persistence.
+Project Structure
+
+distributed-room-rental-platform/ ├── backend/ │ ├── Master.java // Handles TCP connections and client requests. │ ├── Worker.java // Manages room data storage and processing. │ └── utils/ // Helper classes and utility functions. ├── android-client/ │ ├── app/ // Android application source code. │ └── resources/ // Configuration files and assets. └── README.txt
+Contributors
+
+• Your Name (https://github.com/yourusername) • Collaborator Name (https://github.com/collaborator)
