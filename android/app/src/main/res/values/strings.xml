@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">NVK BOOKING</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    //create
+    <string name="menu_create_room">Create room\n</string>
+    <string name="create_room">Room Details</string>
+    <string name="area">Area</string>
+    <string name="room_name">Room Name</string>
+    <string name="price">Price</string>
+    <string name="number_of_persons">Persons</string>
+
+    //define dates
+    <string name="menu_define_dates">Define dates</string>
+    <string name="room_id">Room ID</string>
+    <string name="define_dates">Define Dates for a room</string>
+    <string name="date_from">Date From</string>
+    <string name="from">From</string>
+    <string name="date_to">Date To</string>
+    <string name="To">To</string>
+    <string name="yyyy_mm_dd">YYYY-MM-DD</string>
+
+    //lists
+    <string name="menu_list_room">Find room(s) and Bookings</string>
+    <string name="listTitle">Find your room(s) and bookings</string>
+    <string name="find_my_rooms">List my rooms</string>
+    <string name="listWithID">List with</string>
+    <string name="id">ID</string>
+    <string name="listForSpecificID">List my bookings</string>
+
+    //buttons
+    <string name="confirm">Confirm</string>
+    <string name="amount_in">amount in €</string>
+    <string name="roomName">Roomname</string>
+    <string name="persons_hint"> </string>
+    <string name="room_name_hint"> </string>
+    <string name="press_submit_to_create_the_room">Press submit to create the room</string>
+    <string name="fetch">Fetch</string>
+    <string name="room_area">room area</string>
+    <string name="template_persons">Persons</string>
+    <string name="template_price">Price</string>
+    <string name="template_area">Area</string>
+    <string name="template_room_name">Room name</string>
+    <string name="template_stars">Stars</string>
+    <string name="template_room_id">Room ID</string>
+    <string name="template_spans">Spans</string>
+    <string name="name">Name</string>
+    <string name="dash">-</string>
+    <string name="statistics">Statistics</string>
+    <string name="menu_show_statistics">Statistics</string>
+    <string name="all_rooms_statistics">All rooms statistics</string>
+    <string name="your_room_statistics">Your room statistics</string>
+    <string name="booking_statistics">My Booking statistics</string>
+    <string name="search">Search</string>
+    <string name="capacity">Capacity</string>
+    <string name="stars">Stars</string>
+    <string name="rent_room">Rent a room</string>
+    <string name="book_your_room">Book your room</string>
+    <string name="rate_a_room">Rate a room</string>
+    <string name="rate_room">Rate room</string>
+    <string name="number_1_5">Number between 1-5</string>
+    <string name="nvk_booking"></string>
+    <string name="nvk"></string>
+    <string name="view_my_rentals">View My Rentals</string>
+    <string name="username">Username</string>
+    <string name="template_area_name">Area Name</string>
+    <string name="template_value_area">Value Area</string>
+
+
+</resources>

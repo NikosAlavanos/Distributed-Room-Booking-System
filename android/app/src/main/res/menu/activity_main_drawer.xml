@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_create_room"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_create_room" />
+        <item
+            android:id="@+id/nav_define_dates"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_define_dates" />
+        <item
+            android:id="@+id/nav_list_rooms"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_list_room" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/nav_rent_room"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/rent_room" />
+
+        <item
+            android:id="@+id/nav_rate_room"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/rate_a_room" />
+
+        <item
+            android:id="@+id/nav_view_my_rentals"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/view_my_rentals" />
+
+        <item
+            android:id="@+id/nav_show_statistics"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_show_statistics" />
+    </group>
+
+</menu>

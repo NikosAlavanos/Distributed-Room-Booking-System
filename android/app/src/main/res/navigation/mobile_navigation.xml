@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.nvk.androidclient.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_create_room"
+        android:name="com.nvk.androidclient.ui.create.CreateRoomFragment"
+        android:label="@string/menu_create_room"
+        tools:layout="@layout/fragment_create_room" />
+    <fragment
+        android:id="@+id/nav_define_dates"
+        android:name="com.nvk.androidclient.ui.defineDates.DefineDatesFragment"
+        android:label="@string/menu_define_dates"
+        tools:layout="@layout/fragment_define_dates" />
+    <fragment
+        android:id="@+id/nav_list_rooms"
+        android:name="com.nvk.androidclient.ui.listRoomsOrBookings.ListRoomOrBookingFragment"
+        android:label="@string/menu_list_room"
+        tools:layout="@layout/fragment_list_rooms_or_bookings" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.nvk.androidclient.ui.search.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_rent_room"
+        android:name="com.nvk.androidclient.ui.rentRoom.RentRoomFragment"
+        android:label="@string/rent_room"
+        tools:layout="@layout/fragment_rent_room" />
+
+    <fragment
+        android:id="@+id/nav_rate_room"
+        android:name="com.nvk.androidclient.ui.rateRoom.RateRoomFragment"
+        android:label="@string/rate_room"
+        tools:layout="@layout/fragment_rate_room" />
+
+    <fragment
+        android:id="@+id/nav_view_my_rentals"
+        android:name="com.nvk.androidclient.ui.viewRentals.ViewRentalsFragment"
+        android:label="@string/view_my_rentals"
+        tools:layout="@layout/fragment_view_rentals" />
+
+    <fragment
+        android:id="@+id/nav_show_statistics"
+        android:name="com.nvk.androidclient.ui.showStatistics.ShowStatisticsFragment"
+        android:label="@string/statistics"
+        tools:layout="@layout/fragment_show_statistics" />
+</navigation>
